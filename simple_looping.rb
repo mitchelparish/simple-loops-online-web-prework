@@ -43,7 +43,6 @@ def until_iterator(number_of_times)
     counter += 1
     break if counter == number_of_times
   end
-  end
 
 end
 
