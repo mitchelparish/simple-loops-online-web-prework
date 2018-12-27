@@ -48,8 +48,10 @@ end
 
 def for_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  for thisword in 1..40 do
+
+  for counter in 1..40 do
     puts phrase
+    break if counter == number_of_times
 
   end
 
