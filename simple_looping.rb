@@ -9,7 +9,7 @@ def loop_iterator(number_of_times)
     if counter == number_of_times
       break
   end
-
+end 
 
 end
 
@@ -25,6 +25,7 @@ def while_iterator(number_of_times)
   counter = 0
   while counter < number_of_times
     puts phrase
+  end
 
 end
 
